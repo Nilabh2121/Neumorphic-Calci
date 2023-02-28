@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:#E6BF83;
+    font-family: sans-serif;
+    outline-color: black;
+}
+
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px,#ffffff,
+                      5px 5px 12px rgba(0,0,0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+input{
+    grid-column: span 4;
+    height: 80px;
+    width: 270px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(70, 70, 70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;            
+}
+
+button{
+    height:  60px;
+    width: 60px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 18px;         
+}
+.equal{
+    width: 115px;
+    border-radius: 40px;
+    margin-left: 20px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                 5px 5px 12px rgba(0,0,0,.16);
+}
+
+h1{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-align: center;
+   padding: 20px;
+   text-shadow: #ecf0f3;
+   text-decoration: solid;
+   color:rgb(255, 0, 144);
+   border: 5px;
+   box-shadow: inset 5px 5px 12px rgba(8, 0, 0, 0.16),
+                    -5px -5px 12px rgba(0,0,0,.16);
+   border-radius: 500px;
+   background-color: #ecf0f3;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 40px;
+   text-shadow: 3px 3px 3px rgb(70, 70, 70);
+}
